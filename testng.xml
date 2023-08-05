@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="5">
+    <test verbose="2" preserve-order="true" name="hackerrank login test" enabled="true">
+
+        <classes>
+            <class name="com.testNg.BaseTest">
+                <methods>
+                    <include name="firstTest"/>
+                    <include name="goToHackerrank"/>
+                    <include name="clickOnHackerrank"/>
+                    <include name="Login"/>
+                    <include name="enterPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Gfg Setup Test" enabled="true">
+        <!--<parameter name="featurePath" value="src/test/resources/Features"/>
+        <parameter name="tags" value="GfgSetup"/>-->
+        <classes>
+            <class name="com.testNg.GfgSetup"/>
+        </classes>
+</test>
+
+<test name="Game Cheaters" enabled="false">
+        <classes>
+            <!--<class name="com.testNg.MiniclipAccess"/>-->
+            <class name="com.testNg.GameCheating"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-28T03:20:53Z" name="com.testNg.BaseTest" finished-at="2022-10-28T03:21:24Z" duration-ms="30121">
+    <groups>
+    </groups>
+    <test started-at="2022-10-28T03:20:53Z" name="Command line test" finished-at="2022-10-28T03:21:24Z" duration-ms="30121">
+      <class name="com.testNg.BaseTest">
+        <test-method is-config="true" signature="beforeValidationCheck()[pri:0, instance:com.testNg.BaseTest@4bb4de6a]" started-at="2022-10-28T03:20:51Z" name="beforeValidationCheck" finished-at="2022-10-28T03:20:53Z" duration-ms="2583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeValidationCheck -->
+        <test-method is-config="true" signature="preCheck()[pri:0, instance:com.testNg.BaseTest@4bb4de6a]" started-at="2022-10-28T03:20:53Z" name="preCheck" finished-at="2022-10-28T03:20:56Z" duration-ms="2203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCheck -->
+        <test-method signature="firstTest()[pri:1, instance:com.testNg.BaseTest@4bb4de6a]" started-at="2022-10-28T03:20:56Z" name="firstTest" finished-at="2022-10-28T03:20:57Z" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method signature="goToHackerrank()[pri:2, instance:com.testNg.BaseTest@4bb4de6a]" started-at="2022-10-28T03:20:57Z" name="goToHackerrank" finished-at="2022-10-28T03:21:04Z" duration-ms="6433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHackerrank -->
+        <test-method signature="clickOnHackerrank()[pri:3, instance:com.testNg.BaseTest@4bb4de6a]" started-at="2022-10-28T03:21:04Z" name="clickOnHackerrank" finished-at="2022-10-28T03:21:09Z" duration-ms="4981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnHackerrank -->
+        <test-method signature="Login()[pri:4, instance:com.testNg.BaseTest@4bb4de6a]" started-at="2022-10-28T03:21:09Z" name="Login" finished-at="2022-10-28T03:21:18Z" duration-ms="9089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="enterPassword()[pri:5, instance:com.testNg.BaseTest@4bb4de6a]" started-at="2022-10-28T03:21:18Z" name="enterPassword" finished-at="2022-10-28T03:21:23Z" duration-ms="5638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword -->
+        <test-method is-config="true" signature="postChecks()[pri:0, instance:com.testNg.BaseTest@4bb4de6a]" started-at="2022-10-28T03:21:23Z" name="postChecks" finished-at="2022-10-28T03:21:24Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postChecks -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.testNg.BaseTest@4bb4de6a]" started-at="2022-10-28T03:21:24Z" name="closeDriver" finished-at="2022-10-28T03:21:24Z" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.testNg.BaseTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.testNg.BaseTest -->
+</testng-results>
